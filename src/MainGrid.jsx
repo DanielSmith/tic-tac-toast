@@ -1,16 +1,5 @@
-import { useEffect } from 'react'
-
 const MainGrid = ({ grid, size, clickHandler }) => {
   let renderGrid = []
-
-  useEffect(() => {
-    console.log('new....')
-    console.log(grid)
-
-    return () => {
-      // second
-    }
-  }, [grid])
 
   for (let row = 0; row < size; row++) {
     for (let col = 0; col < size; col++) {
