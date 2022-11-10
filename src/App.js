@@ -102,6 +102,8 @@ function App() {
 
     if (grid[row][col] === ' ') {
       grid[row][col] = currentIndicator
+    } else {
+      return
     }
 
     if (!checkForWinner()) {
