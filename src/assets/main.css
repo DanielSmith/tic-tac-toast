@@ -473,8 +473,8 @@ video {
 .grid {
   display: grid;
 }
-.max-w-\[70px\] {
-  max-width: 70px;
+.max-w-\[50px\] {
+  max-width: 50px;
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));

@@ -2,10 +2,9 @@ import { useState } from 'react'
 import MainGrid from './MainGrid'
 import './assets/main.css'
 
+let grid = []
 function App() {
   const [size, setSize] = useState(3)
-
-  let grid = []
 
   const resetGrid = (size) => {
     grid = [] // clear out existing grid
