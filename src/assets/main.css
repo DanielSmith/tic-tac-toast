@@ -473,8 +473,11 @@ video {
 .grid {
   display: grid;
 }
-.max-w-\[50px\] {
-  max-width: 50px;
+.min-h-\[5rem\] {
+  min-height: 5rem;
+}
+.min-w-\[5rem\] {
+  min-width: 5rem;
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -543,8 +546,8 @@ video {
 .p-10 {
   padding: 2.5rem;
 }
-.p-8 {
-  padding: 2rem;
+.p-6 {
+  padding: 1.5rem;
 }
 .pt-10 {
   padding-top: 2.5rem;
